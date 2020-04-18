@@ -16,9 +16,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">About me <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Portfolio</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
+          <a class="nav-item nav-link" href="#">About me</a>
+          <a class="nav-item nav-link" href="#">Portfolio<span class="sr-only">(current)</span</a>
+          <a class="nav-item nav-link active" href="#">Contact<span class="sr-only">(current)</span>/a>
         </div>
       </div>
     </nav>
@@ -30,58 +30,48 @@
       background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/webb.png");
     }
   </style>
-      <td class="align-middle">
+     <div class="container" style="padding: 20px">
 
-      <div class="container">
-        <div class="row" style="pad: 20px;">
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-          </div>
-          
+      <div class="row">
+        <div class="col-sm">
+          <h1 class="font-weight-bold;" style="font-family: Arial, Helvetica, sans-serif; padding: 20px;">Contact</h1>
         </div>
-    
-        <div class="row" style="padding: 20px;">
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-            </div>
       </div>
-
-    </td>
+    
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-6">
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Example select</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Example multiple select</label>
+              <select multiple class="form-control" id="exampleFormControlSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
 
 </body>
 
